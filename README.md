@@ -93,42 +93,6 @@ A premium, full-stack real-time chat application built with the **MERN stack** a
 
 ---
 
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────-┐
-│                      CLIENT (React)                      │
-│                                                          │
-│  ┌──────────┐ ┌──────────┐ ┌──────────-┐ ┌────────────┐  │
-│  │ AuthStore│ │ ChatStore│ │FriendStore│ │ ThemeStore │  │
-│  │ (Zustand)│ │ (Zustand)│ │ (Zustand) │ │ (Zustand)  │  │
-│  └────┬─────┘ └────┬─────┘ └────┬──────┘ └────────────┘  │
-│       │             │            │                       │
-│       ▼             ▼            ▼                       │
-│  ┌─────────────────────────────────────┐                 │
-│  │          Axios + Socket.IO          │                 │
-│  └────────────────┬────────────────────┘                 │
-└───────────────────┼──────────────────────────────────────┘
-                    │ HTTP (REST) + WebSocket
-┌───────────────────┼──────────────────────────────────────-┐
-│                   ▼     SERVER (Express)                  │
-│  ┌──────────────────────────────────────┐                 │
-│  │     Middleware (CORS, Auth, JSON)    │                 |
-│  └────────────────┬─────────────────────┘                 │
-│       ┌───────────┼───────────┐                           │
-│       ▼           ▼           ▼                           │
-│  ┌────────┐ ┌──────────┐ ┌────────┐                       │
-│  │  Auth  │ │ Messages │ │Friends │  ← Controllers        │
-│  │ Routes │ │  Routes  │ │ Routes │                       │
-│  └───┬────┘ └────┬─────┘ └───┬────┘                       │
-│      └───────────┼───────────┘                            │
-│                  ▼                                        │
-│  ┌──────────────────────────────────────┐                 │
-│  │    MongoDB (Mongoose)  +  Socket.IO  │                 │
-│  │    Cloudinary (Image uploads)        │                 │
-│  └──────────────────────────────────────┘                 │
-└──────────────────────────────────────────────────────────-┘
-```
 
 ---
 
@@ -458,5 +422,6 @@ This project is licensed under the **ISC License**.
 <p align="center">
   Built with ❤️ by <a href="https://github.com/shubhamkr7658">Shubham Kumar</a>
 </p>
-#   c h a t - a p p  
+#   c h a t - a p p 
+ 
  
