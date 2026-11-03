@@ -348,7 +348,7 @@ VITE_RENDER_URI=https://your-backend.onrender.com
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/rkverma77/chat-App.git
+git clone https://github.com/shubhamkr7658/chat-App.git
 cd chat-App
 ```
 
@@ -456,5 +456,7 @@ This project is licensed under the **ISC License**.
 ---
 
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/rkverma77">rkverma77</a>
+  Built with ❤️ by <a href="https://github.com/shubhamkr7658">Shubham Kumar</a>
 </p>
+#   c h a t - a p p  
+ 
